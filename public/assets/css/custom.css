@@ -1,0 +1,54 @@
+:root {
+    --font-family-sans-serif: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    padding: 4px 4px;
+}
+.product-details, .product-details h2, .product-details h3, .product-details h4 {
+    font-family: var(--font-family-sans-serif)
+}
+.product-details .product-name {
+    padding-bottom: 10px;
+}
+.product-details .price label {
+    font-size: 10px;
+    font-weight: bold;
+    color: #9f78ff;
+}
+.product-details .price h3 {
+    font-weight: bold;
+}
+.product-details .addon-product .small-title h3 {
+    color: #ff7878;
+}
+i.fa-rupee-sign {
+    font-size: 16px;
+}
+.all-product .pagination-container {
+    border-top: 1px solid #f0f0f0;
+    padding: 1em;
+}
+.all-product .pagination-container button {
+    font-size: 15px;
+    color: #9f78ff;
+    background-color: transparent;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 14px;
+}
+.all-product .pagination-container button:hover {
+    color: #ffffff;
+}
+.all-product .pagination-container .active {
+    background: #2874f0;
+    color: #fff;
+}
+.all-product .pagination-container .active::before {
+    transform: unset;
+    background: unset;
+}
+.all-product .pagination-container .d-none .small.text-muted, .all-product .pagination-container nav>div.d-sm-none {
+    display: none !important;
+}
