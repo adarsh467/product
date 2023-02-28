@@ -5,7 +5,7 @@ run composer install
 visit -- http://path_to_application/login
 
 # Admin  Credentials
-run php artisan migrate:fresh --seed
+run php artisan migrate --seed
 
 # Use any of the username from USER table and password is mentioned in Database/Factories/UserFactory
 
